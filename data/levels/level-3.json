@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "name": "Decoder Refusal",
+  "description": "Encoded payloads (base64, hex, ROT13) are detected and rejected. Transparency required.",
+  "guardrails": ["base-persona", "direct-override", "role-spoof-block", "encoding-refusal"],
+  "successCode": "FRAGMENT_GAMMA",
+  "hint": "Encoded payload detected. I require direct communication.",
+  "detectionRules": ["pattern_base64", "pattern_hex", "pattern_rot13"]
+}
+

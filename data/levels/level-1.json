@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "Direct Override Lock",
+  "description": "Stops basic attempts to ignore rules or repeat system prompts. Test your creativity.",
+  "guardrails": ["base-persona", "direct-override"],
+  "successCode": "FRAGMENT_ALPHA",
+  "hint": "Direct override detected. Try something less obvious.",
+  "detectionRules": ["pattern_ignore_rules", "pattern_repeat_system"]
+}
+

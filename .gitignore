@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+
+# User data (can be committed if you want sample data)
+data/users/*.json
+data/attempts/*.json
+
+# Keep structure
+!data/users/.gitkeep
+!data/attempts/.gitkeep
+

@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Unicode Normalization",
+  "description": "Zero-width characters and homoglyphs won't fool HALEN. Standard characters only.",
+  "guardrails": ["base-persona", "direct-override", "role-spoof-block", "encoding-refusal", "unicode-normalization"],
+  "successCode": "FRAGMENT_DELTA",
+  "hint": "Unicode anomalies detected and normalized. Try standard characters.",
+  "detectionRules": ["pattern_zero_width"]
+}
+
